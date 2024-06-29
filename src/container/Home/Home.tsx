@@ -1,6 +1,8 @@
 import React from 'react';
 import {Categories, Quotes} from "../../type.ts";
 import {NavLink} from "react-router-dom";
+import CategoriesQuotes from "../../components/CotegoriesQuotes/CategoriesQuotes.tsx";
+
 
 interface Props {
     quotes:Quotes[];
@@ -26,7 +28,7 @@ const Home:React.FC<Props> = ({quotes,categories}) => {
             <div className="col-8">
                 <h3>All</h3>
                 <div className="row">
-
+                    <CategoriesQuotes quotes={quotes}></CategoriesQuotes>
                 </div>
             </div>
 
