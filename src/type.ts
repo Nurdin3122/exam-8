@@ -5,6 +5,13 @@ export interface Quotes {
     id:string
 }
 
+export interface QuotesAPI {
+    author:string;
+    category:string;
+    text:string;
+    id:string
+}
+
 export interface Categories {
     title:string;
     id:string;
