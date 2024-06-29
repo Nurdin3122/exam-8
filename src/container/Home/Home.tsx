@@ -1,6 +1,6 @@
 import React from 'react';
 import { Categories, Quotes } from '../../type.ts';
-import { Link, Route, Routes } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom';
 import CategoriesQuotes from "../../components/CotegoriesQuotes/CategoriesQuotes.tsx";
 
 import OneOfTheCategoryQuote from "../../components/Quotes/OneOfTheCotegoryQuote.tsx";

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Quotes } from "../../type.ts";
-import axiosApi from "../../axiosApi.ts";
 
 interface Props {
     quote: Quotes;

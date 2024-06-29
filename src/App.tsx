@@ -34,9 +34,7 @@ const App = () => {
         } catch (error) {
             console.error('Ошибка при загрузке цитат:', error);
         }
-    }, []);
-    
-    
+    }, [quotes]);
 
     useEffect(() => {
         void fetchQuotes();
@@ -50,10 +48,6 @@ const App = () => {
             console.error('Ошибка при удалении цитаты:', error);
         }
     };
-
-
-
-
 
     return (
     <>
